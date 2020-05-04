@@ -1,4 +1,7 @@
 ; Ender 3 Custom Start G-code
+
+M80 10.190.195.103 ; turn on printer power supply
+
 G92 E0 ; Reset Extruder
 
 ;*** Start Preheating ***
